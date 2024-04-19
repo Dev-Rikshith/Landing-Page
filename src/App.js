@@ -9,6 +9,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Testimonals from './components/Testimonals/testimonals';
 
+
 function App() {
   return (
     <div className="">
