@@ -1,0 +1,44 @@
+.site-footer {
+  background-color: var(--secondary) !important;
+}
+
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-end svg {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: .2s ease-in-out;
+}
+
+.footer-end svg:hover {
+  color: var(--primary) !important;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ccc;
+}
+
+.site-footer h5 {
+    position: relative; 
+    display: inline-block;
+    padding-bottom: 5px; 
+}
+
+.site-footer h5::after {
+    content: '';
+    display: block;
+    width: 75%; 
+    height: 3px; 
+    background: var(--primary); 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
